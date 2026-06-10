@@ -1,0 +1,17 @@
+{
+  "name": "untitled",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}
